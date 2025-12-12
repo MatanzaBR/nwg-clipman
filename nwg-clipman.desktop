@@ -1,16 +1,212 @@
 [Desktop Entry]
+Version=1.0
+
+# Tipo de entrada
+
 Type=Application
 
+# Nome do programa
+
 Name=Clipboard manager
+Name[ar]=
+Name[ast]=
+Name[bn]=
+Name[ca]=
+Name[cs]=
+Name[da]=
+Name[el]=
+Name[es]=Administrador del portapapeles
+Name[et]=
+Name[fa]=
+Name[fi]=Leikepöydän hallinta
+Name[fr]=Gestionnaire de presse-papiers
+Name[gl]=
+Name[he]=
+Name[hr]=
+Name[hu]=Vágólapkezelő
+Name[it]=Gestore degli appunti
+Name[ja]=クリップボードマネージャー
+Name[ko]=클립보드 관리자
+Name[ku]=
+Name[lt]=
+Name[nb]=
+Name[nl]=
+Name[nn]=
+Name[no]=
 Name[pl]=Menedżer schowka
+Name[pt]=Gestor de área de transferência
+Name[pt_BR]=Gerenciador de área de transferência
+Name[ro]=
+Name[ru]=Менеджер буфера обмена
+Name[sk]=
+Name[sl]=
+Name[sv]=
+Name[tr]=
+Name[ug]=
+Name[uk]=Менеджер буфера обміну
+Name[vi]=Trình quản lý bảng nhớ tạm
+Name[zh_CN]=
+Name[zh_TW]=
+
+
+
+# Nome genérico usado em menus
 
 GenericName=nwg-shell clipboard manager
+GenericName[ar]=
+GenericName[ast]=
+GenericName[bn]=
+GenericName[ca]=
+GenericName[cs]=
+GenericName[da]=
+GenericName[el]=
+GenericName[es]=administrador del portapapeles nwg-shell
+GenericName[et]=
+GenericName[fa]=
+GenericName[fi]=nwg-shell-leikepöydän hallintaohjelma
+GenericName[fr]=Gestionnaire de presse-papiers nwg-shell
+GenericName[gl]=
+GenericName[he]=
+GenericName[hr]=
+GenericName[hu]=nwg-shell vágólapkezelő
+GenericName[it]=gestore degli appunti nwg-shell
+GenericName[ja]=nwg-shell クリップボード マネージャー
+GenericName[ko]=nwg-shell 클립보드 관리자
+GenericName[ku]=
+GenericName[lt]=
+GenericName[nb]=
+GenericName[nl]=
+GenericName[nn]=
+GenericName[no]=
 GenericName[pl]=Menedżer schowka nwg-shell
+GenericName[pt]=gestor de área de transferência nwg-shell
+GenericName[pt_BR]=gerenciador de área de transferência nwg-shell
+GenericName[ro]=
+GenericName[ru]=менеджер буфера обмена nwing-shell
+GenericName[sk]=
+GenericName[sl]=
+GenericName[sv]=
+GenericName[tr]=
+GenericName[ug]=
+GenericName[uk]=Менеджер буфера обміну nwg-shell
+GenericName[vi]=trình quản lý clipboard nwg-shell
+GenericName[zh_CN]=
+GenericName[zh_TW]=
+
+
+
+
+# Descrição do programa
+
 
 Comment=Clipboard history search and management tool
+Comment[ar]=
+Comment[ast]=
+Comment[bn]=
+Comment[ca]=
+Comment[cs]=
+Comment[da]=
+Comment[de]=Ein Werkzeug zum Suchen und Verwalten des Zwischenablageverlaufs
+Comment[el]=
+Comment[es]=Una herramienta para buscar y administrar el historial del portapapeles
+Comment[et]=
+Comment[fa]=
+Comment[fi]=Työkalu leikepöydän historian hakemiseen ja hallintaan
+Comment[fr]=Un outil pour rechercher et gérer l'historique du presse-papiers
+Comment[gl]=
+Comment[he]=
+Comment[hr]=
+Comment[hu]=Eszköz a vágólap előzményeinek kereséséhez és kezeléséhez
+Comment[it]=Uno strumento per la ricerca e la gestione della cronologia degli appunti
+Comment[ja]=クリップボードの履歴を検索および管理するためのツール
+Comment[ko]=클립보드 기록을 검색하고 관리하는 도구
+Comment[ku]=
+Comment[lt]=
+Comment[nb]=
+Comment[nl]=
+Comment[nn]=
+Comment[no]=
 Comment[pl]=Narzędzie do wyszukiwania i zarządzania historią schowka
+Comment[pt]=Uma ferramenta para pesquisar e gerir o histórico da área de transferência.
+Comment[pt_BR]=Uma ferramenta para pesquisar e gerenciar o histórico da área de transferência.
+Comment[ro]=
+Comment[ru]=Инструмент для поиска и управления историей буфера обмена
+Comment[sk]=
+Comment[sl]=
+Comment[sv]=
+Comment[tr]=
+Comment[ug]=
+Comment[uk]=Інструмент для пошуку та керування історією буфера обміну
+Comment[vi]=Một công cụ để tìm kiếm và quản lý lịch sử clipboard
+Comment[zh_CN]=
+Comment[zh_TW]=
 
+# Comando para execução
 Exec=nwg-clipman
+
+# Ícone do programa (preferencialmente SVG ou PNG)
 Icon=nwg-clipman
+
+# Indica que não abre em terminal
 Terminal=false
-Categories=Utility;
+
+# Categorias para menus
+
+Categories=Utility;GTK;X-Clipboard;
+
+
+# Feedback visual ao iniciar
+
+# Indica ao sistema que ele deve mostrar algum feedback visual quando o aplicativo é 
+# iniciado. Isso é útil para aplicativos GUI.
+
+StartupNotify=true
+
+# Evitar que o programa apareça no menu se o binário não estiver instalado
+TryExec=nwg-clipman
+
+
+# Palavras-chave para buscas no menu
+
+# Keywords ajudam na pesquisa do aplicativo no menu. Pode incluir termos como "clipboard", 
+# "copiar", "recortar", etc.
+
+Keywords=clipboard;copy;paste;history;
+Keywords[ar]=
+Keywords[ast]=
+Keywords[ca]=
+Keywords[cs]=
+Keywords[da]=
+Keywords[de]=Zwischenablage;Kopieren;Einfügen;Verlauf;
+Keywords[el]=
+Keywords[es]=portapapeles;copiar;pegar;historial;
+Keywords[fi]=leikepöytä; kopioi; liitä; historia;
+Keywords[fr]=presse-papiers;copier;coller;historique;
+Keywords[he]=
+Keywords[hr]=
+Keywords[hu]=vágólap; másolás; beillesztés; előzmények;
+Keywords[it]=appunti;copia;incolla;cronologia;
+Keywords[is]=
+Keywords[ja]=クリップボード;コピー;貼り付け;履歴;
+Keywords[nb]=
+Keywords[nl]=
+Keywords[pt]=area de transferencia;copiar;colar;histórico;
+Keywords[pt_BR]=area de transferencia;copiar;colar;histórico;
+Keywords[pl]=schowek;kopiuj;wklej;historia;
+Keywords[ru]=буфер обмена;копировать;вставить;история;
+Keywords[sk]=
+Keywords[sl]=
+Keywords[tr]=
+Keywords[uk]=буфер обміну;копіювати;вставити;історія;
+Keywords[vi]=clipboard; copy; paste; history;
+Keywords[zh_CN]=
+Keywords[zh_TW]=
+
+
+# Opcional: permitir autostart em desktops que suportam
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-enabled=true
+
+# Opcional: Define se o aplicativo deve aparecer em menus de "Aplicativos de Inicialização"
+OnlyShowIn=GNOME;KDE;XFCE;LXDE;MATE;
+
