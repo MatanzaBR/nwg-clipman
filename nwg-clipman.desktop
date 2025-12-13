@@ -171,7 +171,7 @@ TryExec=nwg-clipman
 # Keywords ajudam na pesquisa do aplicativo no menu. Pode incluir termos como "clipboard", 
 # "copiar", "recortar", etc.
 
-Keywords=clipboard;copy;paste;history;
+Keywords=clipboard;copy;paste;history;clipman;
 Keywords[ar]=
 Keywords[ast]=
 Keywords[ca]=
@@ -190,8 +190,8 @@ Keywords[is]=
 Keywords[ja]=クリップボード;コピー;貼り付け;履歴;
 Keywords[nb]=
 Keywords[nl]=
-Keywords[pt]=area de transferencia;copiar;colar;histórico;
-Keywords[pt_BR]=area de transferencia;copiar;colar;histórico;
+Keywords[pt]=area de transferencia;copiar;colar;historico;
+Keywords[pt_BR]=area de transferencia;copiar;colar;historico;
 Keywords[pl]=schowek;kopiuj;wklej;historia;
 Keywords[ru]=буфер обмена;копировать;вставить;история;
 Keywords[sk]=
@@ -208,5 +208,5 @@ X-GNOME-Autostart-enabled=true
 X-KDE-autostart-enabled=true
 
 # Opcional: Define se o aplicativo deve aparecer em menus de "Aplicativos de Inicialização"
-OnlyShowIn=GNOME;KDE;XFCE;LXDE;MATE;
+# OnlyShowIn=GNOME;KDE;XFCE;LXDE;MATE;
 
