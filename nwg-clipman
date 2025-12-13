@@ -1,2 +1,17 @@
 #!/usr/bin/env bash
-python3 -m nwg_clipman.main
+
+# A detecção explícita -h e -v garante que o script não tente matar instâncias antigas, 
+# nem gere os avisos de dbind-WARNING, porque o módulo Python só processa o argumento e 
+# sai.
+
+# Se o primeiro argumento for -h ou --help, ou -v ou --version, mostra só help/version
+if [[ "$1" == "-h" || "$1" == "--help" || "$1" == "-v" || "$1" == "--version" ]]; then
+    
+    # Redireciona stderr para /dev/null para suprimir dbind-WARNING
+    exec python3 -m nwg_clipman.main "$@" 2>/dev/null
+else
+    # Caso contrário, roda normalmente (GUI), repassando todos os argumentos
+    exec python3 -m nwg_clipman.main "$@"
+fi
+
+
